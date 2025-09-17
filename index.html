@@ -1,0 +1,245 @@
+<html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风格控制语音合成</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* 自定义样式：优化表格和音频播放器显示 */
+        .sample-card {
+            margin-top: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .sample-card .card-header {
+            background-color: #f8f9fa;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        /* 调整badge文字大小 */
+        .sample-card .card-header .badge {
+            font-size: 1rem;
+            padding: 0.35rem 0.65rem;
+        }
+        .sample-table {
+            margin-bottom: 0;
+        }
+        .sample-table td {
+            vertical-align: middle;
+            padding: 0.8rem;
+        }
+        .sample-table th {
+            vertical-align: middle;
+            text-align: center;
+            background-color: #f1f3f5;
+        }
+        /* 音频播放器样式优化 */
+        audio {
+            width: 100%;
+            max-width: 220px;
+            height: 38px;
+        }
+        /* 响应式调整：小屏幕表格横向滚动 */
+        .table-container {
+            overflow-x: auto;
+        }
+        /* 子表样式 */
+        .sub-table-container {
+            margin-bottom: 1.5rem;
+            border: 1px solid #e9ecef;
+            border-radius: 0.375rem;
+        }
+        .sub-table-header {
+            background-color: #f8f9fa;
+            padding: 0.75rem 1.25rem;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="container py-4">
+    <!-- 页面标题 -->
+    <div class="text-center mb-5">
+        <h1 class="display-6 text-primary">风格语音合成Demo</h1>
+        <!-- <p class="text-muted">包含中文、中文跨性别、英文到中文三类合成样本</p> -->
+    </div>
+
+    <!-- zh样本模块 -->
+    <div class="card sample-card">
+        <div class="card-header">
+            <span class="badge bg-success me-2">中文音色-中文风格</span>
+        </div>
+        <div class="card-body p-4" id="zh-container">
+            <!-- 动态加载子表 -->
+        </div>
+    </div>
+
+    <!-- zh_cross样本模块 -->
+    <div class="card sample-card">
+        <div class="card-header">
+            <span class="badge bg-info me-2">音色和风格性别不同</span>
+        </div>
+        <div class="card-body p-4" id="zh-cross-container">
+            <!-- 动态加载子表 -->
+        </div>
+    </div>
+
+    <!-- en2zh样本模块 -->
+    <div class="card sample-card">
+        <div class="card-header">
+            <span class="badge bg-primary me-2">英文音色-中文风格</span>
+        </div>
+        <div class="card-body p-4" id="en2zh-container">
+            <!-- 动态加载子表 -->
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap JS（用于响应式功能） -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 数据加载和页面渲染逻辑
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                // 加载samples.json数据
+                const response = await fetch('./static/samples.json');
+                if (!response.ok) {
+                    throw new Error(`数据加载失败：${response.statusText}`);
+                }
+                const sampleData = await response.json();
+
+                // 渲染每个类别的样本表格（按domain分组）
+                renderSampleByDomain('en2zh', sampleData.en2zh);
+                renderSampleByDomain('zh', sampleData.zh);
+                renderSampleByDomain('zh-cross', sampleData.zh_cross);
+
+            } catch (error) {
+                // 错误提示：在页面顶部显示
+                const errorAlert = document.createElement('div');
+                errorAlert.className = 'alert alert-danger alert-dismissible fade show';
+                errorAlert.role = 'alert';
+                errorAlert.innerHTML = `
+                    数据加载异常：${error.message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                `;
+                document.body.insertBefore(errorAlert, document.body.firstChild);
+                console.error('加载错误：', error);
+            }
+        });
+
+        /**
+         * 按domain分组渲染样本表格
+         * @param {string} type - 样本类型（如en2zh, zh, zh-cross）
+         * @param {Array} samples - 该类型的样本数组
+         */
+        function renderSampleByDomain(type, samples) {
+            const container = document.getElementById(`${type}-container`);
+            if (!container || !samples || samples.length === 0) {
+                container.innerHTML = '<div class="text-center text-muted py-3">暂无该类别的样本数据</div>';
+                return;
+            }
+
+            // 按domain分组
+            const groupedByDomain = {};
+            samples.forEach(sample => {
+                const domain = sample.domain || '未分类';
+                if (!groupedByDomain[domain]) {
+                    groupedByDomain[domain] = [];
+                }
+                groupedByDomain[domain].push(sample);
+            });
+
+            // 渲染每个domain的子表
+            Object.keys(groupedByDomain).forEach((domain, domainIndex) => {
+                const domainSamples = groupedByDomain[domain];
+                
+                // 创建子表容器
+                const subTableContainer = document.createElement('div');
+                subTableContainer.className = 'sub-table-container';
+                
+                // 子表标题
+                const subTableHeader = document.createElement('div');
+                subTableHeader.className = 'sub-table-header';
+                subTableHeader.textContent = `${domain}`;
+                subTableContainer.appendChild(subTableHeader);
+                
+                // 子表内容
+                const tableContainer = document.createElement('div');
+                tableContainer.className = 'table-container';
+                
+                const table = document.createElement('table');
+                table.className = 'table table-striped table-hover sample-table';
+                table.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">合成文本</th>
+                            <th>音色参考</th>
+                            <th>风格参考</th>
+                            <th>无风格参考结果</th>
+                            <th>有风格参考结果</th>
+                        </tr>
+                    </thead>
+                    <tbody id="${type}-${domainIndex}-table-body">
+                        <!-- 动态加载数据 -->
+                    </tbody>
+                `;
+                
+                tableContainer.appendChild(table);
+                subTableContainer.appendChild(tableContainer);
+                container.appendChild(subTableContainer);
+                
+                // 渲染子表数据
+                renderSampleTable(`${type}-${domainIndex}`, domainSamples);
+            });
+        }
+
+        /**
+         * 渲染样本表格
+         * @param {string} tableId - 表格tbody的ID
+         * @param {Array} samples - 该类别的样本数组
+         */
+        function renderSampleTable(tableId, samples) {
+            const tableBody = document.getElementById(`${tableId}-table-body`);
+            if (!tableBody || !samples || samples.length === 0) {
+                // 无数据时显示空提示
+                const emptyRow = document.createElement('tr');
+                emptyRow.innerHTML = `<td colspan="5" class="text-center text-muted py-3">暂无数据</td>`;
+                tableBody.appendChild(emptyRow);
+                return;
+            }
+
+            // 遍历样本生成表格行
+            samples.forEach((sample, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="text-break">${sample.text || '无文本'}</td>
+                    <td>${createAudioElement(sample.voice_ref, `voice-${tableId}-${index}`)}</td>
+                    <td>${createAudioElement(sample.style_ref, `style-${tableId}-${index}`)}</td>
+                    <td>${createAudioElement(sample.result1, `result1-${tableId}-${index}`)}</td>
+                    <td>${createAudioElement(sample.result2, `result2-${tableId}-${index}`)}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        /**
+         * 创建音频播放元素
+         * @param {string} audioPath - 音频文件路径
+         * @param {string} audioId - 音频元素ID（用于唯一标识）
+         * @returns {string} 音频元素HTML字符串
+         */
+        function createAudioElement(audioPath, audioId) {
+            if (!audioPath) {
+                return '<span class="text-danger">无音频</span>';
+            }
+            // 生成带控件的音频播放器，支持播放/暂停/进度调节
+            return `
+                <audio id="${audioId}" controls preload="none">
+                    <source src="${audioPath}" type="audio/wav">
+                    您的浏览器不支持音频播放，请更新浏览器版本。
+                </audio>
+            `;
+        }
+    </script>
+
+
+    </body></html>
