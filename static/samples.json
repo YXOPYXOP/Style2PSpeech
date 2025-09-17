@@ -1,0 +1,312 @@
+{
+    "zh": [
+        {
+            "text": "玉貌珠喉若梦痕，痴情倩女又还魂。曼声低唱银屏内，风送兰香溢筚门。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_ZBJ_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Male_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0026_zh_poem.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0026_zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "狐狸得到了小王子的豢養，而小王子也從狐狸身上學到了珍愛着自己玫瑰的情誼，但又有誰知道狐狸是否真的需要小王子來豢養他，也許他只是寂寞。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_DJ_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0072_zh_audiobook.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0072_zh_audiobook.wav",
+            "domain": "Audiobook"
+        },
+        {
+            "text": "黄山塔。风吹旗脚西南开，挂帆槌鼓何快哉！转头已失望夫石，黄山孤塔迎人来。黄山劝汝一杯酒，送往迎来殊耐久。明年我作故乡归，还对黄山一搔首。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_aojiaobazong_Zh_Male_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Male_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0025_zh_poem.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0025_zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "或许正源于此，商瑞华才在首战前3天召开了一堂完全针对恐瑞症的战术分析课。3日中午在喜来登大酒店中国队租用的会议室里，商瑞华给大家播放了瑞典队的比赛录像剪辑。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Y_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Male_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0013_zh_news.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0013_zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "从前有对夫妻，他们遇到了死神。死神说：“你们俩阳寿总和已经到了，只能活一个，你们猜拳吧，输的就得死。”他俩耳语一阵之后出拳：妻子出了剪子，丈夫出了布  ——丈夫输了。妻子拽着被死神带走的丈夫哭着说：“说好了一起出石头的，为什么你却出了布?”丈夫什么也没说，平静的跟死神走了。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Guangxi_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0075_zh_audiobook.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0075_zh_audiobook.wav",
+            "domain": "Audiobook"
+        },
+        {
+            "text": "唐代有个人叫宋察，娶了同郡一个女孩做老婆。宋察本人的先祖是胡人，与汉人杂居通婚已经三代了，所以几乎与汉人无异。但他老婆给他生的儿子却是高鼻深目，正宗的胡人样貌。他认为这不是他的孩子，想要扔掉。正巧此时他的马生了一匹白色的小马驹，宋察恍然大悟：我家之前有过白马，都绝种二十五年了，如今又降生了白马。我家祖上是胡人，现在我的儿子是胡人相貌也对啊，没什么不妥。于是就认下了这个孩子，后人称之为“白马活胡儿”。不知道是不是我想多了，我总感觉有哪里不对劲。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_linjianvhai_Zh_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Female_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0031_zh_history.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0031_zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "事后，曹鹏飞得知，这是福彩中心在进行一个封存程序。这样的过程我没有经历过，但我感觉把票给他们不大妥，毕竟于海不在现场。曹鹏飞说，当时他问了福彩中心在现场的领导：我们要不要打个电话给于海，问个究竟，票对不上到底是怎么回事情？但是得到答复是：先不要说，不要打草惊蛇。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Beijing_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Female_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0009_zh_news.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0009_zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "10月燃料油裂解价差收窄0.26美元，至每桶较迪拜原油贴水6.15美元。11月裂解价差收窄0.23美元，至每桶贴水6.00美元。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_gaolengyujie_Zh_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0001_zh_news.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0001_zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "所以说，嗯我们现在嗯周边的朋友，他们用这些，一到一定岁数就会去做体检的时候，他们都提心吊胆的，大家都一样。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_HZ_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Male_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0067_zh_chat.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0067_zh_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "任迪简，最初在天德军使李景略手下做判官。一次这位李景略大人请客喝酒，结果一位小兵不小心把醋壶当成了酒壶给他倒上了。李景略一向治军严酷，如果说出来那个小兵必死无疑。为了救这个粗心的小军卒，任迪简愣是咬着牙喝了一晚上的醋，回家之后狂吐血，“军中闻者皆感泣”。李景略死后，任迪简便被小兵们拥戴做了头儿，后来官至易定节度使，人送外号“呷醋节帅”。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_youmodaye_Zh_Male_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Male_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0041_zh_history.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0041_zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "阿程和我是高中同學，我們都是班裡特立獨行的人物，不同的是，我是一位只專注課業的兩腳書櫥，而他則鄙夷一切「分數狗」的鳥兒，翱翔在空中俯瞰着萬物。他是一位無論什麼季節都穿一件學校管樂團薄外套的怪咖，他的身高不高，大略比我還要矮了五公分，我卻總是能在好幾公尺遠的地方就用他身上穿的衣服辨認出他，他喜歡打籃球，但是他的身上從來都不會沾染大男孩打球後的酸臭味，或許是因為我特別喜歡他身上的味道。和外表粗曠不同的是他很喜歡吃甜食，也因此我都叫他「臭三八」，但我的心裡更喜歡叫他「小王子」。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_tiexinnanyou_Zh_Male_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Female_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0071_zh_audiobook.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0071_zh_audiobook.wav",
+            "domain": "Audiobook"
+        },
+        {
+            "text": "从前有对夫妻，他们遇到了死神。死神说：“你们俩阳寿总和已经到了，只能活一个，你们猜拳吧，输的就得死。”他俩耳语一阵之后出拳：妻子出了剪子，丈夫出了布  ——丈夫输了。妻子拽着被死神带走的丈夫哭着说：“说好了一起出石头的，为什么你却出了布?”丈夫什么也没说，平静的跟死神走了。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Y_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Male_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0082_zh_audiobook.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0082_zh_audiobook.wav",
+            "domain": "Audiobook"
+        },
+        {
+            "text": "8月8日，由于台风莫拉克的肆虐，台湾遭遇了五十年来最大水灾，整个南台湾成为泽国，洪水埋没了天伦亲情，冲走了安身的家园。为此，今日早晨，新浪网、搜狐、网易、腾讯、TOM网、开心网、凤凰网、博客中国网、酷溜网、北京网络媒体协会等北京网络媒体界联合倡议，为台湾同胞抗灾重建，共献爱心。此前，新浪网和腾讯网已经于昨晚分别捐款200万元人民币。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Beijing_Male_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Male_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0018_zh_news.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0018_zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "采桑子。水精眠梦人消渴，不赐金茎。凭仗纤琼。旋起春雷出素瓶。一匙还乞蛮姜点，石乳花腾。两腋凉生。风味清于醒酒冰。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_linjianvhai_Zh_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0024_zh_poem.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0024_zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "它不是它那个并发症啊糖尿病并发症，一般很多就出现的是糖尿病肾他肾脏功能受损到最后肾功能衰竭。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_SWK_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Male_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0064_zh_chat.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0064_zh_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "东汉人羊续是历史上著名的廉吏之一，他任太守期间，下属送给他的活鱼，他收下之后不吃，拿绳子挂起来吊在房梁上。再有人来送礼，他就指着房梁上吊着的已经风干的鱼干给人家看。慢慢的，大家也都知道了羊续不吃这一套，也就没人再来送礼了，他清廉的名声也因此传开。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Peppa_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0034_zh_history.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0034_zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "浣沙溪。花县双凫缥缈仙。家庭椿树正苍然。斑衣举酒大人前。袅袅凉风供扇枕，悠悠飞露湿丛萱。醉扶黄发弄曾玄。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Taiwan_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Female_1.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0020_zh_poem.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0020_zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "然后我就我就特别奇怪，我就说哎，你怎么突然去广州，是去旅游吗还是什么，她说没有，因为她妈妈逼着她去相亲，然后她就跑了，去找她那个堂哥去了。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_linjianvhai_Zh_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0050_zh_chat.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0050_zh_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "唐太宗李世民某次生病，医生说要用无脂肥羊入药。太宗不明所以，问属下这无脂肥羊是怎么回事。侍中郝处俊解释道，这无脂肥羊是要选五十只肥羊，一个一个的慢慢杀，杀的时候让其他羊都看着。等杀完四十九只，剩下的这最后一只，已经吓得脂肪都破了融进肉里，就是无脂肥羊了。“五十口肥羊，一一对前杀之，其羊怖惧，破脂并入肉中。取最后一羊，则极肥而无脂也”。太宗听了不忍心，此事便就此作罢。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_ZBJ_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Male_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0048_zh_history.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0048_zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "哎我也其实我最想做的就是我想成为一名老师。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Beijing_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh/nosty/zh.0051_zh_chat.wav",
+            "result2": "static/data/MOS-zh/sty/zh.0051_zh_chat.wav",
+            "domain": "Chat"
+        }
+    ],
+    "zh_cross": [
+        {
+            "text": "东城寻春。老色日上面，欢情日去心。今既不如昔，后当不如今。今犹未甚衰，每事力可任。花时仍爱出，酒后尚能吟。但恐如此兴，亦随日销沉。东城春欲老，勉强一来寻。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Sichuan_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Male_2.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0189_zh_crossgender_poem.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0189_zh_crossgender_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "北京市第一中级人民法院在判决中认定，1999年11月至2008年2月，王益利用其担任国家开发银行副行长的职务便利，为数名请托人谋取利益，索取、收受对方钱款共计折合人民币1196万余元。案发后全部赃款均已追缴。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Guangxi_Female_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Male_1.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0175_zh_crossgender_news.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0175_zh_crossgender_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "任迪简，最初在天德军使李景略手下做判官。一次这位李景略大人请客喝酒，结果一位小兵不小心把醋壶当成了酒壶给他倒上了。李景略一向治军严酷，如果说出来那个小兵必死无疑。为了救这个粗心的小军卒，任迪简愣是咬着牙喝了一晚上的醋，回家之后狂吐血，“军中闻者皆感泣”。李景略死后，任迪简便被小兵们拥戴做了头儿，后来官至易定节度使，人送外号“呷醋节帅”。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_aojiaobazong_Zh_Male_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Female_1.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0191_zh_crossgender_history.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0191_zh_crossgender_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "就是多多少少肯定会有，就比如说现在我们就有，我们还是要去，更加辩证的去想它的好，然后去嗯尽量去弥补，或者说提出一些建议，对它对于它的不足来说。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Guangxi_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Male_2.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0206_zh_crossgender_chat.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0206_zh_crossgender_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "比如说你感冒呀治感冒，发烧呀治发烧，然后什么的，但是中医是治的是你那个人，就是你生病了，是治你这个人，把你给治好的。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Y_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Female_2.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0202_zh_crossgender_chat.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0202_zh_crossgender_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "哈密三首。东接敦煌郡，南连吐鲁番。咽喉通月窟，衣带俯河源。日影春城黯，风声戍角喧。太平无绝檄，中外一屏藩。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_HY_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Female_1.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0185_zh_crossgender_poem.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0185_zh_crossgender_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "刘烨获聘希望之家爱心大使与小朋友开心互动新浪娱乐讯5月8日，由中华希望树儿童救助专项基金组织成立的，旨在帮助周边地区的贫困家庭学前儿童和农民工子女的希望之家正式在京落户，并举行了希望之家成立挂牌仪式。近期忙于宣传新电影不再让你孤单的著名演员刘烨也积极加入到希望之家的活动中，作为中华希望树儿童救助专项基金爱心大使出席了活动，参与挂牌仪式，并以讲述寓言故事，送上图书和文具等方式与小朋友进行了爱心互动。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Y_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Female_1.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0180_zh_crossgender_news.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0180_zh_crossgender_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "东汉人羊续是历史上著名的廉吏之一，他任太守期间，下属送给他的活鱼，他收下之后不吃，拿绳子挂起来吊在房梁上。再有人来送礼，他就指着房梁上吊着的已经风干的鱼干给人家看。慢慢的，大家也都知道了羊续不吃这一套，也就没人再来送礼了，他清廉的名声也因此传开。",
+            "voice_ref": "static/ref_wavs/Prompt_Accent_Guangdong_Female_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Male_1.wav",
+            "result1": "static/data/MOS-zh_cross/nosty/zh.0196_zh_crossgender_history.wav",
+            "result2": "static/data/MOS-zh_cross/sty/zh.0196_zh_crossgender_history.wav",
+            "domain": "History"
+        }
+    ],
+    "en2zh": [
+        {
+            "text": "吴沈子山。六月闽溪荔子丹，新秋犹喜荐雕盘。自嗟千里归程远，不得繁枝雨后看。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Trump_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Male_2.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0112_en2zh_poem.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0112_en2zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "某日，坦山和尚與一道友一起走在一條泥濘小路上，此時，天正下着大雨。 他倆在一個拐彎處遇到一位漂亮的姑娘，姑娘因為身着綢布衣裳和絲質衣帶而無法跨過那條泥路。「來吧，姑娘，」坦山說道，然後就把那位姑娘抱過了泥路，放下後又繼續趕路。一路上，道友一直悶聲不響，最後終於按捺不住，向坦山發問：「我們出家人不近女色，特別是年輕貌美的女子，那是很危險的，你為什麼要那樣做？」「什麼？那個女人嗎？」坦山答道，「我早就把她放下了，你還抱着嗎？」",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Her_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Female_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0157_en2zh_audiobook.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0157_en2zh_audiobook.wav",
+            "domain": "Audiobook"
+        },
+        {
+            "text": "OPEC成员国利比亚的官员周三表示，OPEC在下月的会议上应会维持产出目标不变，并提高减产达成率。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Her_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Female_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0093_en2zh_news.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0093_en2zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "任迪简，最初在天德军使李景略手下做判官。一次这位李景略大人请客喝酒，结果一位小兵不小心把醋壶当成了酒壶给他倒上了。李景略一向治军严酷，如果说出来那个小兵必死无疑。为了救这个粗心的小军卒，任迪简愣是咬着牙喝了一晚上的醋，回家之后狂吐血，“军中闻者皆感泣”。李景略死后，任迪简便被小兵们拥戴做了头儿，后来官至易定节度使，人送外号“呷醋节帅”。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Her_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Female_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0119_en2zh_history.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0119_en2zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "那说起来了吗，我是那样啊我说咱城市的现在订个婚也不就是，八万八七万七多少六万六。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Trump_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Male_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0147_en2zh_chat.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0147_en2zh_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "就是多多少少肯定会有，就比如说现在我们就有，我们还是要去，更加辩证的去想它的好，然后去嗯尽量去弥补，或者说提出一些建议，对它对于它的不足来说。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Her_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_chat_Zh_Female_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0139_en2zh_chat.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0139_en2zh_chat.wav",
+            "domain": "Chat"
+        },
+        {
+            "text": "峡山飞来寺。劈破峡山险，天风吹寺来。径从烟树上，门压浪花开。流水如不去，孤云时自回。禅林偶一立，清磬何悠哉。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Her_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Poem_Female_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0110_en2zh_poem.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0110_en2zh_poem.wav",
+            "domain": "Poem"
+        },
+        {
+            "text": "唐太宗李世民某次生病，医生说要用无脂肥羊入药。太宗不明所以，问属下这无脂肥羊是怎么回事。侍中郝处俊解释道，这无脂肥羊是要选五十只肥羊，一个一个的慢慢杀，杀的时候让其他羊都看着。等杀完四十九只，剩下的这最后一只，已经吓得脂肪都破了融进肉里，就是无脂肥羊了。“五十口肥羊，一一对前杀之，其羊怖惧，破脂并入肉中。取最后一羊，则极肥而无脂也”。太宗听了不忍心，此事便就此作罢。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Mask_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_History_Male_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0131_en2zh_history.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0131_en2zh_history.wav",
+            "domain": "History"
+        },
+        {
+            "text": "当天晚上，等到曹鹏飞和蔡朝阳等4人回到益阳，已经是晚上12点。次日，即12月17日，曹鹏飞遇到了于海。什么时候能兑奖？于海问。彩票已经送到省里去了。等通知。曹鹏飞说，不过，彩票有些对不上唉。有这样的怪事？于海回答。曹鹏飞说，当时看于海的神情很惊讶，但也没有太急躁的反应。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Mask_1.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_News_Zh_Male_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0101_en2zh_news.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0101_en2zh_news.wav",
+            "domain": "News"
+        },
+        {
+            "text": "从前有对夫妻，他们遇到了死神。死神说：“你们俩阳寿总和已经到了，只能活一个，你们猜拳吧，输的就得死。”他俩耳语一阵之后出拳：妻子出了剪子，丈夫出了布  ——丈夫输了。妻子拽着被死神带走的丈夫哭着说：“说好了一起出石头的，为什么你却出了布?”丈夫什么也没说，平静的跟死神走了。",
+            "voice_ref": "static/ref_wavs/Prompt_Character_Mask_2.wav",
+            "style_ref": "static/ref_wavs/Prompt_Domain_Audiobook_Zh_Male_1.wav",
+            "result1": "static/data/MOS-en2zh/nosty/zh.0170_en2zh_audiobook.wav",
+            "result2": "static/data/MOS-en2zh/sty/zh.0170_en2zh_audiobook.wav",
+            "domain": "Audiobook"
+        }
+    ]
+}
